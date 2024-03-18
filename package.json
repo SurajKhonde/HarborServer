@@ -1,0 +1,28 @@
+{
+  "name": "habitharborserver",
+  "version": "1.0.0",
+  "description": "this is server for HabitHarbor app basically design for Crud operations  ",
+  "main": "index.js",
+  "scripts": {
+    "start": "  node index.js"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Suraj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-validator": "^7.0.1",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
